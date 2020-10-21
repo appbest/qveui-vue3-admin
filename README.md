@@ -39,8 +39,15 @@ npm run build
 
 ## 项目演示
 
+### 桌面宽屏
+
 <img src="https://qve.gitee.io/docs/files/web.png" />
+
+### 手机网页
+
 <img src="https://qve.gitee.io/docs/files/web-min.png" />
+
+### 演示视频
 
 <video id="video" controls="" preload="none" poster="https://qve.gitee.io/docs/files/web.png">
 <source id="mp4" src="https://qve.gitee.io/docs/files/web.webm" type="video/webm">
