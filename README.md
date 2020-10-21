@@ -39,9 +39,9 @@ npm run build
 
 ## 项目演示
 
-<img src="./temp/web.png" />
-<img src="./temp/web-min.png" />
+<img src="https://qve.gitee.io/docs/files/web.png" />
+<img src="https://qve.gitee.io/docs/files/web-min.png" />
 
-<video id="video" controls="" preload="none" poster="./temp/web.png">
-<source id="mp4" src="./temp/web.webm" type="video/webm">
+<video id="video" controls="" preload="none" poster="https://qve.gitee.io/docs/files/web.png">
+<source id="mp4" src="https://qve.gitee.io/docs/files/web.webm" type="video/webm">
 </video>
