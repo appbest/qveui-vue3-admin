@@ -1,0 +1,87 @@
+html {
+  font-size: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none outside none;
+}
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  position: relative;
+}
+body {
+  font-family: 'PingFang SC', 'Helvetica Neue', Helvetica, 'microsoft yahei', arial, STHeiTi, sans-serif;
+  background-color: #f9f9f9;
+}
+a {
+  text-decoration: none;
+}
+.page-bg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.login-page {
+  background-color: #1a202c;
+  height: 100%;
+}
+.login-page .login-page-bar {
+  font-size: 0.8rem;
+  top: 1rem;
+  padding: 0.5rem;
+  display: inline-block;
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  cursor: pointer;
+}
+.login-page .login-page-bar a {
+  color: #fff;
+}
+.login-page-box {
+  position: absolute;
+  z-index: 2;
+  right: 12%;
+  top: 10%;
+  width: 14rem;
+  margin: 2rem auto;
+  background-color: rgba(250, 250, 250, 0.3);
+  border-radius: 0.25rem;
+  box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.5);
+}
+.login-page-box .head {
+  text-align: center;
+  padding: 1rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.login-page-box .qv-form {
+  padding: 0.8rem;
+  background-color: rgba(250, 250, 250, 0.9);
+  border-radius: 0.25rem;
+}
+.login-page-box .vail-code-field .vail-code {
+  width: 5rem;
+}
+.login-page-box .vail-code-field .vail-code-img {
+  vertical-align: top;
+  height: 1.6rem;
+  margin-left: 0.2rem;
+}
+.login-page-box .qv-btn-primary {
+  width: 80%;
+}
+.login-page-box .center {
+  text-align: center;
+}
