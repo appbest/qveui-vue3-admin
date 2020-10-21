@@ -36,3 +36,12 @@ npm run dev
 npm run build
 
 ```
+
+## 项目演示
+
+<img src="./temp/web.png" />
+<img src="./temp/web-min.png" />
+
+<video id="video" controls="" preload="none" poster="./temp/web.png">
+<source id="mp4" src="./temp/web.webm" type="video/webm">
+</video>
