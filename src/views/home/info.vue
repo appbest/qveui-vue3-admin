@@ -1,6 +1,6 @@
 <!-- 首页信息 -->
 <template>
-  <div>首页信息{{ version }}</div>
+  <div>QVEUI 版本：{{ version }}</div>
 </template>
 
 <script>
