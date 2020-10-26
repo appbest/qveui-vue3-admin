@@ -78,6 +78,8 @@ export default {
 
     const the = reactive({
       tree: {
+        /** 点击节点 */
+        active: '0.1',
         onItem: {},
         list: [{
           title: '组织',
@@ -148,6 +150,7 @@ export default {
     <Row>
       <Col span="6">
       <Tree :data="the.tree.list"
+            :active="the.tree.active"
             @onEvent="onTreeEvent" />
       </Col>
       <Col span="18">

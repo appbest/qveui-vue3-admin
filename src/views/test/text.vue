@@ -32,7 +32,8 @@ export default {
         tel: 1890000000,
         startDate: '2020-09-02',
         startTime: '12:51:32',
-        endTime: '2020-09-08 12:01',
+        iso: new Date().toISOString(),
+        endTime: new Date().format('yyyy-MM-dd HH:mm:ss S'),
         pop: '商家名',
         bool: false,
       },
@@ -409,14 +410,20 @@ export default {
                     placeholder="请选择日期与时间" />
       </Field>
 
+      <Field label="截止时间ISO"
+             prop="iso"
+             tip="ISO 时间格式">
+        <DatePicker v-model="the.data.iso"
+                    mark="iso"
+                    type="datetime"
+                    placeholder="请选择日期与时间" />
+      </Field>
+
       <Field label="截止时间"
              prop="endTime">
         <DatePicker v-model="the.data.endTime"
                     type="datetime"
                     placeholder="请选择日期与时间" />
-        <Tooltip content="时间选择">
-          ？
-        </Tooltip>
       </Field>
 
       <Field label="外键商家">
